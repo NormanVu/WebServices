@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Pecudep Web Service</title>
+</head>
+<body>
+	<u>A propos :</u>
+	<p>Ceci est l'utilaire d'utilisation de l'API Restful de Pecudep
+		Pecude est un logiciel de gestion des petites dépenses journalière</p>
+	<hr />
+	<u>Services :</u>
+
+	<p>
+		Read me: <a href="http://localhost:8080/com.pecudep/">http://localhost:8080/com.pecudep/</a>
+	</p>
+	<p>
+		1. Status : <a href="http://localhost:8080/com.pecudep/api/v1/status">http://localhost:8080/com.pecudep/api/v1/status</a>
+	</p>
+	<p>
+		2. Version : <a
+			href="http://localhost:8080/com.pecudep/api/v1/status/version">http://localhost:8080/com.pecudep/api/v1/status/version</a>
+	</p>
+	<hr/>
+	<u>Dépense :</u>	
+	<p>
+		3. Ajouter une dépense :
+		<a href="http://localhost:8080/com.pecudep/api/depenses/postDepense/{id}">http://localhost:8080/com.pecudep/api/depenses/postDepense/{id}</a>
+	</p>
+
+	<p>
+		4. Afficher une dépense :
+		 <a href="http://localhost:8080/com.pecudep/api/depenses/getDepense/{id}">http://localhost:8080/com.pecudep/api/depenses/getDepense/{id}
+		</a>
+	</p>
+	<p>
+		5. Modifier une dépense :
+		 <a href="http://localhost:8080/com.pecudep/api/depenses/putDepense/{id}">http://localhost:8080/com.pecudep/api/depenses/putDepense/{id}
+		</a>
+	</p>
+	<p>
+		6. Supprimer une dépense :
+		 <a href="http://localhost:8080/com.pecudep/api/depenses/deleteDepense/{id}">http://localhost:8080/com.pecudep/api/depenses/deleteDepense/{id}</a>
+	</p>
+	
+<p>
+		7. Lister les dépenses par utilisateur et dossier :
+		 <a href="http://localhost:8080/com.pecudep/api/depenses/{utilisateur}/{dossier}">http://localhost:8080/com.pecudep/api/depenses/{utilisateur}/{dossier}</a>
+	</p>
+	<p>
+		8. Le bilan d'un utilisateur jusqu'à la date actuelle :
+		 <a href="http://localhost:8080/com.pecudep/api/depenses/getBilan/{utilisateur}">http://localhost:8080/com.pecudep/api/depenses/getBilan/{utilisateur}</a>
+	</p>
+	
+
+</body>
+</html>
